@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Home from "./components/home/index";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Portfolio</h1>
       </header>
+      <Home />
     </div>
   );
 }
